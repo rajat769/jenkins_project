@@ -8,7 +8,7 @@ pipeline {
         sh 'node --version'
             }
                   }
-     stage('Fuck') {
+     stage('Test') {
               steps {
                   echo "hello madarchod"
                     }
