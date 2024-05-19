@@ -12,7 +12,12 @@ pipeline {
               steps {
                   echo "hello madarchod"
                     }
-                   } 
+                   }
+ stage('Test') {
+              steps {
+                  echo "hello feburary"
+                    }
+                   }
 } 
 
 }
